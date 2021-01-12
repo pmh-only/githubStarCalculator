@@ -1,6 +1,6 @@
-[submodule "src/3rd/normalize"]
-	path = src/3rd/normalize
+[submodule "public/3rd/normalize"]
+	path = public/3rd/normalize
 	url = https://github.com/necolas/normalize.css.git
-[submodule "src/3rd/bebas-neue"]
-	path = src/3rd/bebas-neue
+[submodule "public/3rd/bebas-neue"]
+	path = public/3rd/bebas-neue
 	url = https://github.com/dharmatype/Bebas-Neue.git
