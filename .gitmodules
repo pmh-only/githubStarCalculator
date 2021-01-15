@@ -4,3 +4,9 @@
 [submodule "public/3rd/bebas-neue"]
 	path = public/3rd/bebas-neue
 	url = https://github.com/dharmatype/Bebas-Neue.git
+[submodule "public/3rd/fetch"]
+	path = public/3rd/fetch
+	url = https://github.com/github/fetch.git
+[submodule "public/3rd/promise"]
+	path = public/3rd/promise
+	url = https://github.com/taylorhakes/promise-polyfill.git

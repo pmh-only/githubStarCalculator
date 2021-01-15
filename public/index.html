@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Github Star Calculator</title>
+
+    <link rel="stylesheet" href="/3rd/normalize/normalize.css">
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <header class="header">
+          <div class="title">
+            How many
+            <a target="_blank" href="https://github.com/pmh-only/githubStarCalculator">
+              <img src="/3rd/octicon/star.svg" alt="stars">
+            </a>
+            in my github repos?
+          </div>
+          <div class="login-box">
+            <p class="muted">Loading... (please enable javascript)</p>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <article class="article">
+      <div class="article-title">
+        you have...
+        <div class="result">0<img src="/3rd/octicon/star.svg" alt="stars"></div>
+      </div>
+
+      <div class="stats">
+        <div class="public"><div class="ind">0</div>public repos</div> +
+        <div class="private"><div class="ind">0</div>private repos</div> +
+        <div class="fork"><div class="ind">0</div>fork repos</div> +
+        <div class="collabo"><div class="ind">0</div>collaborated repos</div> +
+        <div class="orgPublic"><div class="ind">0</div>public org repos</div> +
+        <div class="orgPrivate"><div class="ind">0</div>private org repos</div>
+      </div>
+    </article>
+    
+    <footer class="footer">
+      <hr>
+      <div class="muted">
+        Copyright © 2021 Park Min Hyeok.
+      </div>
+    </footer>
+
+    <script src="/3rd/promise/dist/polyfill.min.js"></script>
+    <script src="/3rd/fetch/fetch.js" type="module"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
