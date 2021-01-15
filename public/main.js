@@ -37,7 +37,7 @@ window.onload = async function () {
       <div class="muted detail"></div>
     `
 
-    const socket = new WebSocket('ws:' + window.location.host + '/ws?token=' + token)
+    const socket = new WebSocket('wss:' + window.location.host + '/ws?token=' + token)
 
     socket.onmessage = function (event) {
       const data = JSON.parse(event.data)
