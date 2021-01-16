@@ -112,6 +112,7 @@ a {
   font-family: BebasNeue;
   color: #2e3440;
   border-bottom: #2e3440 solid 5px;
+  cursor: pointer;
 }
 
 .footer {
